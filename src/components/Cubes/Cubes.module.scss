@@ -1,0 +1,31 @@
+// colors
+$winnerBg: gainsboro;
+$colorX: green;
+$colorO: red;
+$hoverBg: gray;
+$hoverColor: white;
+
+.cub {
+    width: 100px;
+    height: 100px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    font-size: 45px;
+    line-height: 100px;
+    border: 1px solid gray;
+
+    &:hover {
+        background-color: $hoverBg;
+        color: $hoverColor;
+    }
+}
+.green {
+    color: $colorX;
+}
+.red {
+    color: $colorO;
+}
+.winnerBg {
+    background-color: $winnerBg;
+}
